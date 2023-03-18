@@ -1,0 +1,296 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["hi", "hello", "hey"],
+            "responses": ["Hello!", "Hi there!", "Hey! How can I help you today?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["bye", "see you later", "goodbye"],
+            "responses": ["Goodbye!", "See you later!", "Take care!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["thanks", "thank you", "appreciate it"],
+            "responses": ["You're welcome!", "No problem!", "Glad to help!"]
+        },
+        {
+            "tag": "balance",
+            "patterns": [
+            "Is it possible to take this program and work full time?", 
+            "Can I do this and work full time?", 
+            "Do I have to be a full time student?",	"Can I do the LTEC program part time?", "Can I do this part time?"],
+            "responses": [
+              "Most of our graduate students work full time while taking classes.  We offer classes in mini-mester, half-semester, and full-semester formats to help accommodate your schedule.  You are not required to be a full-time student.  You may complete the program part-time."]
+        },
+        {
+            "tag": "application",
+            "patterns": [
+             "Can you tell me the status of my application?",
+            "How do I know if I'm accepted?",
+            "Can I check my acceptance?"     
+            ],
+            "responses": [
+            "Questions about admissions and acceptance should be directed to the  <a href='https://tgs.unt.edu/future-students/graduate-admissions'>Toulouse Graduate School</a>"]
+        },
+        {
+            "tag": "advisor",
+            "patterns": [
+            "I want to talk to an advisor.",
+        "Can I talk to an advisor?",
+        "How do I talk with an advisor?"    
+            ],
+            "responses": [
+            "You can contact the departmental advising office at LT-MS-Advising@unt.edu or call 940-565-2445."
+            ]
+        },
+        {
+            "tag": "personal statement",
+            "patterns": [
+            "What do I need to write in my personal statement?",
+            "Do I need a personal statement?",
+            "Is it necessary to submit a pesonal statement?",
+            "What is a personal statement?"    
+            ],
+            "responses": [
+            "You must include a personal statement in your application stating your career goals and rationale for applying to the learning technologies program as well as a brief description of your career and research expectations with regard to work and further education. The personal statement should link goals to relevant educational experiences and strengths; a description of critical thinking and writing abilities; and a summary of technology skills."
+            ]
+        },
+        {
+            "tag": "graduate_admissions_reqs",
+            "patterns": [
+            "What are the admissions requirements?",
+            "Where can I find the admissions requirements?",
+            "What do I need to apply?",
+            "What documents do I need to submit with my application?"    
+            ],
+            "responses": [
+            "I'd be happy to help you with your admission questions.   We offer undergrad, Masters, and Doctorate level programs.  You can find information about our admissions requirements for each level on our  <a href='https://lt.unt.edu/degrees'> degrees page </a>." ]
+        },
+        {
+            "tag": "transcripts",
+            "patterns": [
+            "Do I need to submit transcripts?",
+            "Where do I send transcripts?",
+            "I need help with my transcripts.",
+            "Can you help me with my transcripts?"  
+            ],
+            "responses": [
+            "Transcripts should be submitted as part of your application process.  However, they might need to go to different admissions officers, depending on the degree that you're interested in.  Please visit our  <a href='https://lt.unt.edu/degrees'> degrees page <a> page to learn about how to submit your application and transcripts." 
+            ]
+        },
+        {
+            "tag": "letters",
+            "patterns": [
+            "Are letters of recommendation necessary?",
+            "Do I have to submit a letter of recommendation?",
+            "Who should I get letters of recommendation from?" 
+            ],
+            "responses": [
+            "When you apply, you must provide at least two letters of recommendation from individuals who can give evidence of your critical thinking and ability to engage in graduate studies. The recommendations should also address the candidate's ability to work independently and in groups."
+            ]
+        },
+        {
+            "tag": "checking grades",
+            "patterns": [
+            "Where do I find my grades?",
+            "How do I check my grades?"
+            ],
+            "responses": [
+            "Course grades are usually posted on Canvas during the semester.  However, at the conclusion of the course, you can find your grades at <a href=https://my.unt.edu/psp/ps/?cmd=login&languageCd=ENG&'> my.unt.edu <a>."
+            ]
+        },
+        {
+            "tag": "admissions grades",
+            "patterns": [
+            "What is the minimum GPA that I need for admissions?",
+            "Do I need a high GPA to be admitted?",
+            "Can I still apply if my GPA is low?"
+            ],
+            "responses": [
+            "For graduate students, the Toulouse Graduate School will review transcripts to verify minimum GPA requirements of 3.0 on the last 60 hours of a bachelor's degree, a 3.0 cumulative undergraduate GPA, or a 3.5 GPA on a completed master's degree. Applications that do not meet these requirements will be reviewed on an individual basis. Also, scores on a department-administered placement test and/or the GRE or the Miller Analogies Test (MAT) may be used in assessing a student's application for admission to the program. If you meet the specified GPA requirement, you will not be required to submit test scores. If you do not meet the specified GPA requirement, you can enroll in the program under a provisional acceptance and may be required to submit test scores or maintain a B average in the first 12 hours of graduate coursework."
+            ]
+        },
+        {
+            "tag": "GRE",
+            "patterns": ["Do I need to take the GRE?",
+            "Do I need the GRE?",
+            "Do I need a minimum GRE score?"
+            ],
+            "responses": [
+            "For graduate students, the Toulouse Graduate School will review transcripts to verify minimum GPA requirements of 3.0 on the last 60 hours of a bachelor's degree, a 3.0 cumulative undergraduate GPA, or a 3.5 GPA on a completed master's degree. Applications that do not meet these requirements will be reviewed on an individual basis. Also, scores on a department-administered placement test and/or the GRE or the Miller Analogies Test (MAT) may be used in assessing a student's application for admission to the program. If you meet the specified GPA requirement, you will not be required to submit test scores. If you do not meet the specified GPA requirement, you can enroll in the program under a provisional acceptance and may be required to submit test scores or maintain a B average in the first 12 hours of graduate coursework."
+            ]
+        },
+        {
+            "tag": "tracks",
+            "patterns": [
+            "What are program tracks?",
+            "Are there different program tracks?",
+            "What are the LTEC program degree tracks?",
+            "How many program tracks are there?" 
+            ],
+            "responses": ["We have several program options and degree tracks to choose from.  You can find information about our tracks <a href='http://catalog.unt.edu/preview_program.php?catoid=24&poid=9845&returnto=2601'> here <a>."
+        ]
+        },
+        {
+            "tag": "Prerequisites", 
+            "patterns" : [
+            "I need help getting a prerequisite course.",
+            "Are there any prereqs for the courses?",
+            "Do I have to take certain courses before I can apply to the LTEC program?"
+            ],
+            "responses": [
+            "The LTEC program does not require any specific coursework or prerequisite courses before you apply.  However, some courses within the LTEC program require foundational or pre-requisite courses before you can enroll in them.  You can find out more about the foundational courses and the prereqs in the <a 'href=http://catalog.unt.edu/preview_program.php?catoid=24&poid=9845&returnto=2601'> course catalog </a>."
+
+            ]
+        },
+        {
+            "tag": "account",
+            "patterns": [
+            "Can you help me with my student account?",
+            "I need help with my student account.",
+            "I can't access my student account."
+            ],
+            "responses": [
+            "For account help or issues with the myunt portal, please visit the <a href='https://www.unt.edu/myunt/myunt-students.html'>myunt support page </a>."
+            ]
+        },
+        {
+            "tag": "holds",
+            "patterns": [
+                "I have holds on my account.",
+            "Why do I have holds on my account?",
+            "How do I get rid of holds on my account?",
+            "There is a hold on my account.",
+            "I can't register because there is shold on my account."
+            ],
+            "responses": [
+            "Holds can be placed on student accounts for several reasons.  For assistance, you can contact the  <a href='https://www.unt.edu/myunt/myunt-students.html'>registrar's office </a> or contact the departmental advising office (LT-MS-Advising@unt.edu or 940-565-2445)."
+            ]
+        },
+    
+        {
+            "tag": "start_date",
+            "patterns": [
+            "When does school start?",
+            "When is the first day of class?",
+            "When do classes start?",
+            "When is the first day of school?"
+            ],
+            "responses": [
+            "Answers about semester start and end dates can be found on the  <a href='http://catalog.unt.edu/content.php?catoid=30&navoid=3524l'>academic calendar </a>. Pay very close attention to deadlines for applications and drop dates."
+            ]
+        },
+        {
+            "tag": "sem_length",
+            "patterns": [
+            "How long are the semesters?",
+            "Does the program offer short semesters?",
+            "Can I take minimester courses.",
+            "Can I take courses in the Summer?"
+            ],
+            "responses": [
+            "We offer classes in mini-mester, half-semester, and full-semester formats to help accommodate your schedule. Please consult the <a href='http://catalog.unt.edu/preview_program.php?catoid=24&poid=9845&returnto=2601'>course catalog</a> to see which courses are offered in the long, short, and minimester sessions."
+            ]
+        },
+        {
+            "tag": "app_deadline",
+            "patterns": [
+            "When is the application deadline?",
+            "What is the deadline for applying?",
+            "When do I need to submit my application?",
+            "What is the latest I can apply?"
+            ],
+            "responses": [
+            "We recommend you apply as early as possible.  Applications can be updated via the  <a href='https://tgs.unt.edu/future-students/graduate-admissions/update-your-application'>Toulouse Graduate School</a>.  The Toulouse Graduate School's application priority dates are as follows: TGS Application Priority Dates (Domestic):Fall - June 15; Spring - Oct 15; Summer - April 15. TGS Application Priority Dates (International)  Fall - April 15; Spring - Oct 15; Summer - Jan 1"
+            ]
+        },
+        {
+            "tag": "graduation",
+            "patterns": [
+            "How do I apply for graduation?",
+            "Where do I apply for graduation.",
+            "I need to apply for graduation.",
+            "Can you help me apply for graduation?"
+            ],
+            "responses": [
+            "Students must apply for graduation during the final semester of coursework.  Graduation applications are submitted via the <a href='https://my.unt.edu/psp/ps/?cmd=login&languageCd=ENG&'>my.unt.edu</a>portal."
+            ]
+        },
+        {
+            "tag": "thesis",
+            "patterns": [
+                "Do I have to write a thesis?",
+            "Is a thesis required to graduate?",
+            "Can I do a non-thesis option?"
+            ],
+            "responses": [
+            "A Master's thesis is not required for the Learning Technologie Masters program."
+            ]
+        },
+        {
+            "tag": "Canvas",
+            "patterns": [
+                "I need help with Canvas.",
+            "Can you help me with Canvas?",
+            "Where do I go for help with Canvas?",
+            "How do I contact Canvas support?"
+            ],
+            "responses": [
+            "Technical support, including Canvas Support, can be reached at <a href='https://techsupport.unt.edu/'>techsupport.unt.edu</a> or by calling (940) 565-2324."
+            ]
+        },
+        {
+            "tag": "gentech",
+            "patterns": [
+                "I need tech support.",
+            "Where do I get tech support?",
+            "I need help with my computer."
+            ],
+            "responses": [
+                "Technical support, including Canvas Support, can be reached at <a href='https://techsupport.unt.edu/'>techsupport.unt.edu</a> or by calling (940) 565-2324."
+            ]
+        },
+        {
+            "tag": "scholarships",
+            "patterns": [
+            "Are there scholarships available?",
+            "What scholarships are available?",
+            "How do I apply for scholarships?",
+            "Where do I apply for scholarships?"
+            ],
+            "responses": [
+            "Students should visit http://financialaid.unt.edu/ for details on Financial Aid and Scholarships and the application process."
+            ]
+        },
+        {
+            "tag": "financial_aid",
+            "patterns": [
+                "What are the financial aid requirements?",
+                "What scholarships are available?",
+                "How do I apply for financial aid?",
+                "Can you help me with my FAFSA?"
+            ],
+            "responses": [
+                "Students should visit http://financialaid.unt.edu/ for details on Financial Aid and Scholarships and the application process."
+            ]
+        },
+        {
+            "tag": "assistantships",
+            "patterns": [
+            "Can I apply to be a graduate assistant or teaching assistant?",
+            "How do I apply to be a graduate assistant or teaching assistant?",
+            "Can I apply to be a TA?",
+            "Where do i get information about teaching assistantships?",
+            "Are there graduate assistantships or teaching assistantships available?"
+            ],
+            "responses": [
+            "Graduate Assistantships and Teaching Assistantships are open to graduate students only.  You can read about the application process and open positions <a href='https://lt.unt.edu/application-graduate-assistantship'>here</a>."
+            ]
+        }
+        ]
+        }
+
+
+
